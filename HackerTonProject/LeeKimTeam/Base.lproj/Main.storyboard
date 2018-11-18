@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tte-KM-UfR">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="vpe-9K-SAJ">
+            <objects>
+                <viewController id="tte-KM-UfR" customClass="ViewController" customModule="StanfordFaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hhe-pb-Zan">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2e7-H1-CDV">
+                                <rect key="frame" x="15" y="59" width="345" height="704"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Bye-BW-pLl"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cctv" translatesAutoresizingMaskIntoConstraints="NO" id="9hE-3j-yVV">
+                                <rect key="frame" x="176" y="-13" width="226" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="sU3-sU-xra">
+                                <rect key="frame" x="99" y="590" width="176" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="188" id="00B-Mh-T10"/>
+                                    <constraint firstAttribute="width" constant="176" id="3Tu-C2-4dD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="주차 해도 되나요🥺" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FxI-Xt-uQr">
+                                <rect key="frame" x="82" y="526" width="222" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="rode" translatesAutoresizingMaskIntoConstraints="NO" id="2iq-l6-ZjX">
+                                <rect key="frame" x="37" y="70" width="300" height="512"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sU3-sU-xra" firstAttribute="leading" secondItem="udW-04-6Y7" secondAttribute="leading" constant="99" id="06X-te-VXF"/>
+                            <constraint firstItem="sU3-sU-xra" firstAttribute="bottom" secondItem="udW-04-6Y7" secondAttribute="bottom" id="K08-Vv-g1Z"/>
+                            <constraint firstItem="sU3-sU-xra" firstAttribute="top" secondItem="2iq-l6-ZjX" secondAttribute="bottom" constant="8" id="Vl4-zJ-TcP"/>
+                            <constraint firstItem="udW-04-6Y7" firstAttribute="trailing" secondItem="sU3-sU-xra" secondAttribute="trailing" constant="100" id="sKf-WQ-Lph"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="udW-04-6Y7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XwN-8Y-89R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-720.79999999999995" y="120.44334975369459"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="NextViewController" customModule="StanfordFaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Rhd-0k-DWw">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                            </mapView>
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H07-pR-PKQ">
+                                <rect key="frame" x="16" y="47" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" image="icons8-time-64"/>
+                                <connections>
+                                    <action selector="countStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="apI-WF-wmd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Time Limit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icj-pj-yq1">
+                                <rect key="frame" x="0.0" y="742" width="375" height="36"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnZ-ER-qYE">
+                                <rect key="frame" x="299" y="44" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icons8-wall-mount-camera-48"/>
+                                <connections>
+                                    <action selector="cctvButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gwJ-QX-gDJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXO-lT-5vA">
+                                <rect key="frame" x="161" y="62" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="처음으로"/>
+                                <connections>
+                                    <segue destination="Qjg-gC-G2a" kind="unwind" unwindAction="unwind:" id="3q7-yh-hFr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qk6-72-SpI">
+                                <rect key="frame" x="16" y="674" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="location" image="loction"/>
+                                <connections>
+                                    <action selector="currentLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPf-LH-Hzc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="icj-pj-yq1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7N9-oO-2J8"/>
+                            <constraint firstItem="Rhd-0k-DWw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IcS-Bs-Jaf"/>
+                            <constraint firstItem="Rhd-0k-DWw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="S9Y-qO-yLU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rhd-0k-DWw" secondAttribute="trailing" id="bTr-wA-CsB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Rhd-0k-DWw" secondAttribute="bottom" id="ntf-VV-uLw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="icj-pj-yq1" secondAttribute="trailing" id="pcE-gF-555"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="icj-pj-yq1" secondAttribute="bottom" id="wtv-Zv-0LV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="countLabel" destination="icj-pj-yq1" id="H8M-V4-O6f"/>
+                        <outlet property="mapView" destination="Rhd-0k-DWw" id="lnh-jb-WrQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="Qjg-gC-G2a" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="13.6" y="120.98950524737631"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cctv" width="128" height="128"/>
+        <image name="icons8-time-64" width="48" height="48"/>
+        <image name="icons8-wall-mount-camera-48" width="36" height="36"/>
+        <image name="loction" width="512" height="512"/>
+        <image name="rode" width="512" height="512"/>
+        <image name="start" width="306.38296508789062" height="306.38296508789062"/>
+    </resources>
+</document>
