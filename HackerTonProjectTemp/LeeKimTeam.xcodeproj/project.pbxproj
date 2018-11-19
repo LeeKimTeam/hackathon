@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2FD44E61219E602A00EAAE2B /* ect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD44E60219E602A00EAAE2B /* ect.swift */; };
+		E8226F8C21A19472007A45AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8226F8B21A19472007A45AE /* Default-568h@2x.png */; };
 		E89C4E25219E5A110005DA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C4E24219E5A110005DA73 /* AppDelegate.swift */; };
 		E89C4E27219E5A110005DA73 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C4E26219E5A110005DA73 /* NextViewController.swift */; };
 		E89C4E2A219E5A110005DA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89C4E28219E5A110005DA73 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2FD44E60219E602A00EAAE2B /* ect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ect.swift; sourceTree = "<group>"; };
+		E8226F8B21A19472007A45AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E89C4E21219E5A110005DA73 /* LeeKimTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeKimTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89C4E24219E5A110005DA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E89C4E26219E5A110005DA73 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		E89C4E18219E5A110005DA73 = {
 			isa = PBXGroup;
 			children = (
+				E8226F8B21A19472007A45AE /* Default-568h@2x.png */,
 				E89C4E23219E5A110005DA73 /* LeeKimTeam */,
 				E89C4E22219E5A110005DA73 /* Products */,
 			);
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E89C4E2F219E5A120005DA73 /* LaunchScreen.storyboard in Resources */,
+				E8226F8C21A19472007A45AE /* Default-568h@2x.png in Resources */,
 				E89C4E2C219E5A120005DA73 /* Assets.xcassets in Resources */,
 				E89C4E2A219E5A110005DA73 /* Main.storyboard in Resources */,
 			);
@@ -301,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LeeKimTeam.hackathon.LeeKimTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = StanfordFaker.hackathon.StanfordFaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LeeKimTeam.hackathon.LeeKimTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = StanfordFaker.hackathon.StanfordFaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -26,35 +26,35 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Bye-BW-pLl"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cctv" translatesAutoresizingMaskIntoConstraints="NO" id="9hE-3j-yVV">
-                                <rect key="frame" x="176" y="-13" width="226" height="247"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="sU3-sU-xra">
+                                <rect key="frame" x="112" y="613" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="sU3-sU-xra">
-                                <rect key="frame" x="99" y="590" width="176" height="188"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="188" id="00B-Mh-T10"/>
-                                    <constraint firstAttribute="width" constant="176" id="3Tu-C2-4dD"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="주차 해도 되나요🥺" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FxI-Xt-uQr">
-                                <rect key="frame" x="82" y="526" width="222" height="35"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rode" translatesAutoresizingMaskIntoConstraints="NO" id="2iq-l6-ZjX">
+                                <rect key="frame" x="12" y="163" width="350" height="450"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cars" translatesAutoresizingMaskIntoConstraints="NO" id="L54-RV-a5j">
+                                <rect key="frame" x="121" y="284" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cars" translatesAutoresizingMaskIntoConstraints="NO" id="jWl-IU-2Dy">
+                                <rect key="frame" x="178" y="375" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parkable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SiT-K4-OB5">
+                                <rect key="frame" x="60" y="85" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="rode" translatesAutoresizingMaskIntoConstraints="NO" id="2iq-l6-ZjX">
-                                <rect key="frame" x="37" y="70" width="300" height="512"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cctv" translatesAutoresizingMaskIntoConstraints="NO" id="XmR-Qn-20Q">
+                                <rect key="frame" x="233" y="234" width="50" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="sU3-sU-xra" firstAttribute="leading" secondItem="udW-04-6Y7" secondAttribute="leading" constant="99" id="06X-te-VXF"/>
-                            <constraint firstItem="sU3-sU-xra" firstAttribute="bottom" secondItem="udW-04-6Y7" secondAttribute="bottom" id="K08-Vv-g1Z"/>
-                            <constraint firstItem="sU3-sU-xra" firstAttribute="top" secondItem="2iq-l6-ZjX" secondAttribute="bottom" constant="8" id="Vl4-zJ-TcP"/>
-                            <constraint firstItem="udW-04-6Y7" firstAttribute="trailing" secondItem="sU3-sU-xra" secondAttribute="trailing" constant="100" id="sKf-WQ-Lph"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="udW-04-6Y7"/>
                     </view>
                 </viewController>
@@ -72,6 +72,9 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Rhd-0k-DWw">
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Fcb-h2-Ltz"/>
+                                </connections>
                             </mapView>
                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H07-pR-PKQ">
                                 <rect key="frame" x="16" y="47" width="60" height="60"/>
@@ -138,6 +141,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cars" width="72" height="72"/>
         <image name="cctv" width="128" height="128"/>
         <image name="icons8-time-64" width="48" height="48"/>
         <image name="icons8-wall-mount-camera-48" width="36" height="36"/>
