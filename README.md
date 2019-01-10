@@ -22,7 +22,7 @@
 
 내 돈💸 내 행복!!
 
-[![Alt text]()](https://youtu.be/11-JQ_jswMQ)
+[![Alt text](/keynote/22.jpg)](https://youtu.be/11-JQ_jswMQ)
 
 ---
 
