@@ -24,7 +24,7 @@
 
 
 
-![](/keynote/record.MOV)
+![](/keynote/22.jpg)
 
 
 
