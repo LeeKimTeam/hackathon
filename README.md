@@ -24,7 +24,7 @@
 
 
 
-![](https://github.com/LeeKimTeam/hackathon/blob/master/keynote/record.MOV)
+![](/keynote/record.MOV)
 
 
 
